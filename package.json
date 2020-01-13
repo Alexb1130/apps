@@ -1,0 +1,25 @@
+{
+  "name": "apps-rating",
+  "version": "1.0.0",
+  "description": "My extraordinary Nuxt.js project",
+  "author": "alexB",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@nuxtjs/svg-sprite": "^0.4.7",
+    "nuxt": "^2.0.0",
+    "nuxt-lazy-load": "^1.0.5",
+    "vue-multiselect": "^2.1.6"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0"
+  }
+}
